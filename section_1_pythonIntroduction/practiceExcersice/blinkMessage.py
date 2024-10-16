@@ -1,3 +1,5 @@
+import sys 
+
 def blinkText(msg:str, dtime:float) -> None:
     '''
         Make blink a message surrounded by some asterisk
@@ -26,4 +28,4 @@ def main():
     return 0
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

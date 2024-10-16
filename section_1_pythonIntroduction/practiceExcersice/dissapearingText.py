@@ -1,3 +1,5 @@
+import sys 
+
 def dissapearingText(msg:str, speed:float=0.5) -> None:
     '''
         Make dissapear a word of phrase chracter by character
@@ -23,4 +25,4 @@ def main():
     return 0
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())
