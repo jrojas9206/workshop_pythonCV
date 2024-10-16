@@ -1,10 +1,6 @@
-"""
-you will need maybe some libraries! 
-
-import os 
-import time
-"""
+import os
 import sys 
+import time 
 
 def blinkText(msg:str, dtime:float) -> None:
     '''
@@ -25,14 +21,24 @@ def blinkText(msg:str, dtime:float) -> None:
     '''
 
     """
-        Your code goes here
+        It is a fast solution!!... Try to improved!! 
+        less code, more readable? 
     """
+    asteriskNumber = len(msg) + 4
+    headerMsg = '*' * asteriskNumber
+    for numberBlinks in range(10):
+        os.system('cls||clear')
+        print(headerMsg)
+        print('**', ' '*(asteriskNumber-4) if numberBlinks%2==0 else msg, '**')
+        print(headerMsg)
+        time.sleep(0.5)
     return 0 
 
 def main():
-    # Define some inputs from terminal -- see the input method or the argparse module
+    myMessage = input('Give me the message to print: ')
+    msgFreq = float(input('Give me the message frequency: '))
     # Big step of the work
-    blinkText()
+    blinkText(myMessage, msgFreq)
     return 0
 
 if __name__ == '__main__':
