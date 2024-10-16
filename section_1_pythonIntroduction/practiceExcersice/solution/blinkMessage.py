@@ -32,7 +32,7 @@ def blinkText(msg:str, dtime:float) -> None:
         print(headerMsg)
         print('**', ' '*(asteriskNumber-6) if numberBlinks%2==0 else msg, '**')
         print(headerMsg)
-        time.sleep(0.5)
+        time.sleep(dtime)
     return 0 
 
 def main():
