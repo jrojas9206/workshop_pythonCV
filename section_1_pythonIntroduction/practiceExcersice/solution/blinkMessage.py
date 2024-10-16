@@ -24,12 +24,12 @@ def blinkText(msg:str, dtime:float) -> None:
         It is a fast solution!!... Try to improved!! 
         less code, more readable? 
     """
-    asteriskNumber = len(msg) + 4
+    asteriskNumber = len(msg) + 6
     headerMsg = '*' * asteriskNumber
     for numberBlinks in range(10):
         os.system('cls||clear')
         print(headerMsg)
-        print('**', ' '*(asteriskNumber-4) if numberBlinks%2==0 else msg, '**')
+        print('**', ' '*(asteriskNumber-6) if numberBlinks%2==0 else msg, '**')
         print(headerMsg)
         time.sleep(0.5)
     return 0 
