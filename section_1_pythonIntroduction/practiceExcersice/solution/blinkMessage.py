@@ -23,6 +23,7 @@ def blinkText(msg:str, dtime:float) -> None:
     """
         It is a fast solution!!... Try to improved!! 
         less code, more readable? 
+        maybe add colors?
     """
     asteriskNumber = len(msg) + 6
     headerMsg = '*' * asteriskNumber
