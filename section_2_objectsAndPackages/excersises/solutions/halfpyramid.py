@@ -1,5 +1,5 @@
 '''
-    Solution - Pyramids 
+    Solution - Halfpyramids 
 '''
 import sys 
 
