@@ -46,7 +46,13 @@ def pyramidCD(height:int, orientation:str='c'):
 
 def halfPyramid(height:int, orientation:str='a') -> str:
     '''
-        Your code goes here
+        Generate the different halfpyramid orientations 
+
+        :Args:
+            :height: int, HalgPyramid's heigt
+            :orientation: str, HalfPyramid orientation [a,b,c,d]
+        :Return:
+            str
     '''
     pattern = ''
     if orientation == 'a' or orientation == 'b':
