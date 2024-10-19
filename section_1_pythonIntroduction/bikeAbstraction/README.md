@@ -4,5 +4,8 @@ We can describe an object as an abstract representation of a real-world entity o
 
 
 <center>
-    <img src='image/14438-NPMCGK.jpg' width=250 height=250 />
+    <figure>
+        <img src='image/14438-NPMCGK.jpg' width=250 height=250 />
+        <figcaption> <strong>Figure 1.</strong> Example of the real-word entity that need to be described </figcaption>
+    </figure>
 </center>
