@@ -6,6 +6,84 @@ We can describe an object as an abstract representation of a real-world entity o
 <center>
     <figure>
         <img src='image/14438-NPMCGK.jpg' width=250 height=250 />
-        <figcaption> <strong>Figure 1.</strong> Example of the real-word entity that need to be described </figcaption>
+        <figcaption> <strong>Figure 1.</strong> Example of the real-word entity that need to be described [Object:Bike] </figcaption>
     </figure>
 </center>
+
+As a practical example, lets look **Figure 1**. Lets try to described the object bike.
+
+
+* **Object:** Bike 
+    * **Attributes**: 
+        * **Frame:**
+            * **Material:** Steel
+            * **Color:** White 
+            * **Quatity:** 1
+        * **Wheel:**
+            * **Material:** Rubber, 
+            * **Geometry:** Circle, 
+    * **Methods**:
+        * Rocking: ....
+        * Tilting: ....
+        * Turning: ....
+
+The previous definitions are the ones that characterize our object bike. This exercise can be extrapolated to more abstract ideas. And from this we will be able to create more complex elements, applications and representations. 
+
+## Why did I start with this introduction to what an object is?
+
+In Python :snake:, all variables :a:, data structures &#x02599; and even methods &#x1F504; are represented as objects. Because of the above, I think that having this simple idea of what an object is will be helpful while we go discovering and defining more in deep concepts. 
+
+## Perhaps you have doubts about how our bike object will look using Python syntax?
+
+Now we will see how it could look like the object bike using the Python syntax. I clarify that we will see a better representation and a series of execersies in the next sections, don't be afraid if this look a bit frainting, with time and practice you will domain and understand what each definition means and how to apply them to your projects.
+
+```python
+# Definition of the object
+class Bike(TransportVehicle):
+    
+    #Object Contstructor
+    def __init__(self):
+
+        # Public attributes 
+        self._frame = {
+            'material': 'steel',
+            'color': 'white',
+            'quantity': 1
+        }
+        self._wheel = {
+            'material': 'rubber',
+            'geometry': 'circle'
+        }
+    
+    # Public method
+    def Rocking(self, value): 
+        '''
+            Action difinition goes here
+        '''
+        return ''
+
+    # Public method
+    def Tilting(self, angle):
+        '''
+            Action difinition goes here
+        '''
+        return ''
+
+    # Public method
+    def Turning(self, direction):
+        '''
+            Action difinition goes here
+        '''
+        return ''
+```
+
+## What next?
+* Introduction
+    * Python variables 
+    * Conditionals and loops 
+    * Python methods and Clases 
+* Applications 
+    * Data analysis   
+    * Computer vision 
+
+**UPDATE:** 19.10.2024
