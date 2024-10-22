@@ -77,6 +77,8 @@ class Bike(TransportVehicle):
         return ''
 ```
 
+An example of the object definition, instance call and subsequent execution can be found in the script [realObject.py](https://github.com/jrojas9206/workshop_pythonCV/blob/main/section_1_pythonIntroduction/s1d0-bikeAbstraction/realObject.py). 
+
 ## What next?
 * [Hello world from python!](https://github.com/jrojas9206/workshop_pythonCV/tree/main/section_1_pythonIntroduction/s1d1-introductionScript)
 
