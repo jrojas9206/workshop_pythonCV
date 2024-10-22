@@ -70,6 +70,12 @@ python -m pip uninstall  [package-name]
 
 A more detailed description of each of the actions you can approach with pip can be found in this [Link](https://pip.pypa.io/en/stable/cli/). 
 
+## What next?
+
+1. [What is an object in OOP](https://github.com/jrojas9206/workshop_pythonCV/tree/main/section_1_pythonIntroduction/s1d0-bikeAbstraction)
+2. [Hello World from Python!](https://github.com/jrojas9206/workshop_pythonCV/tree/main/section_1_pythonIntroduction/s1d1-introductionScript)
+3. [Variables and Data structures](https://github.com/jrojas9206/workshop_pythonCV/tree/main/section_1_pythonIntroduction/s1d2-variablesAndDataStructures)
+
 ## References 
 
 1. Chun, Wesley. Core python programming. O'Reilly, 2001.
