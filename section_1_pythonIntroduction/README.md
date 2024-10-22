@@ -40,7 +40,7 @@ In the projects I have developed, I always try to follow the structure suggested
 
 ### 1.2.2 Virtual environment 
 
-With Python you have a number of incredible tools, among them you will find that you can create a virtual environment. A virtual environment helps you to have a safe environment for testing and development, and it is also an easy way to be under control of your dependencies. There are several tools available for creating a virtual environment, such as *conda* and *venv*. 
+With Python you have a great number of incredible tools, among them you will find that you can create a virtual environment. A virtual environment helps you to have a safe environment for testing and development, and it is also an easy way to be under control of your dependencies. There are several tools available for creating a virtual environment, such as *conda* and *venv*. 
 
 For this workshop we will use *venv* as our tool to create and manage our virtual environment.
 
@@ -54,6 +54,21 @@ If you execute the command and get the error of *module not found*. Please insta
 
 ### 1.2.3 The python package administrator: PIP
 
+To install/uninstall packages on python you can use *pip*. With *pip* you can approach several actions. For the moment I'll show you the two main actions
+
+#### Install a package
+
+```python
+python -m pip install [package-name]
+```
+
+#### uninstall a package
+
+```python
+python -m pip uninstall  [package-name]
+```
+
+A more detailed description of each of the actions you can approach with pip can be found in this [Link](https://pip.pypa.io/en/stable/cli/). 
 
 ## References 
 
