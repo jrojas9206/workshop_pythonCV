@@ -16,6 +16,7 @@ When you develop a Python project, you are free to choose the structure that sui
 
 In the projects I have developed, I always try to follow the structure suggested by [python.org](https://packaging.python.org/en/latest/tutorials/packaging-projects/) with some little modifications. See the following schema. 
 
+```
 📦 Project's folder
  ┣ 📂app
  ┃ ┗ 📜app.py
@@ -29,6 +30,7 @@ In the projects I have developed, I always try to follow the structure suggested
  ┣ 📜pyproject.toml
  ┣ 📜README.md
  ┗ 📜requirements.txt
+```
 
  In the scheme above, you will notice that the *src* folder contains the *tests* and *package name* subfolders. The *tests* folder will contain all your unit test scripts and other tests, and the *package* folder will contain all the core scripts with the desired functionality. 
 
