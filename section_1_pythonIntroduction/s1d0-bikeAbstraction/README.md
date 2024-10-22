@@ -78,12 +78,6 @@ class Bike(TransportVehicle):
 ```
 
 ## What next?
-* Introduction
-    * Python variables 
-    * Conditionals and loops 
-    * Python methods and Clases 
-* Applications 
-    * Data analysis   
-    * Computer vision 
+* [Hello world from python!](https://github.com/jrojas9206/workshop_pythonCV/tree/main/section_1_pythonIntroduction/s1d1-introductionScript)
 
 **UPDATE:** 19.10.2024
