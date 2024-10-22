@@ -1,33 +1,47 @@
-class SimpleBike:
-
-    OBJECT_NAME = 'sBike'
-
+import sys 
+# Definition of the object
+class Bike(object):
+    
+    #Object Contstructor
     def __init__(self):
-        self._colorFrame = '#000000' # RRGGBB R = red B = Blue G = Green
-        self._colorWheels = '#00FF00' # Green Weels 
-        self._weight = 1 # Kg
-        self._frame = [] # Points to draw 
-        self._wheels = 2.0 # Inches  
-        self._maxSpeed = 20 # Km/sec
-        self._minSpeed = 1/2.0 # Km/sec  
-        self._position = [0,0] # x,y
-        self._trajectory = {'speed':[], 
-                            'time':[],
-                            'positions':[]}
-    
-    def move(self, speed, period):
-        '''
-            Do something
-        '''
-        return {}
-    
-    def breakOn(self):
-        '''
-            Do something
-        '''
 
-    def turn(self):
+        # Public attributes 
+        self._frame = {
+            'material': 'steel',
+            'color': 'white',
+            'quantity': 1
+        }
+        self._wheel = {
+            'material': 'rubber',
+            'geometry': 'circle'
+        }
+    
+    # Public method
+    def Rocking(self, value): 
         '''
-            Do something
+            Action difinition goes here
         '''
-        
+        return 'work in progress.._(-8-)_'
+
+    # Public method
+    def Tilting(self, angle):
+        '''
+            Action difinition goes here
+        '''
+        return 'work in progress..\\(*8*)'
+
+    # Public method
+    def Turning(self, direction):
+        '''
+            Action difinition goes here
+        '''
+        return 'work in progress..(*8*)/'
+    
+def main():
+    objBike = Bike() # Creation of the bike instance 
+    msg = objBike.Rocking() # Calling a method from the object
+    print(msg) # Print on terminal the answer message 
+    return 0
+
+if __name__ == '__main__':
+    sys.exit(main())
