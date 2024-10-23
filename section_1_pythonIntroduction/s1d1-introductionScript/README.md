@@ -17,6 +17,7 @@ The instructions you will find here are for VSCode, if you are working with anot
     <figcaption><b>Figure 1.</b> Screenshot of VSCode. Figure taken from <a href=''>Visual Studio Code</a> </figcaption>
 </figure>
 
+
 I assume that you already open VSCode, be attentive to Figure 1, and follow the next steps:
 
 - In the editor bar go to **'File>Open Folder'** and select the repository folder.
