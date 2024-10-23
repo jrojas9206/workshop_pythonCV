@@ -14,7 +14,8 @@ In section 1 you will learn how to create a Python script and set the previous l
 The instructions you will find here are for VSCode, if you are working with another IDE (Integrated Development Environment) the steps or paths will probably be a bit different. 
 <figure>
     <img src='https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png'/>
-    <figcaption><b>Figure 1.</b> Screenshot of VSCode. Figure taken from <a href=''>Visual Studio Code</a> </figcaption>
+    <figcaption><b>Figure 1.</b> Screenshot of VSCode. Figure taken from <a href=''>Visual Studio Code</a>.
+    </figcaption>
 </figure>
 
 
@@ -28,9 +29,15 @@ I assume that you already open VSCode, be attentive to Figure 1, and follow the 
 
 ## 2. Executing python code
 
-The Python code can be executed in two ways. **Firstly**, you can create a Python script, which is basically a plain text file with a *.py* extension. Write your Python code inside and then execute it by calling *python* from your terminal/powershell. See the following command 
+The Python code can be executed in two ways. **Firstly**, you can create a Python script, which is basically a plain text file with a *.py* extension (Steps done in the previous section). Write your Python code inside and then execute it by calling *python* from your terminal/powershell. In VSCode you go to Editor Bar **'Terminal>New Terminal'** and execute 1 by 1 the following lines of code.  
 
-```python 
+```bash 
+# Command 1 - Changing to the directory were the python script is located
+cd section_1_pythonIntroduction/s1d1-introductionScript/
+```
+
+```python
+# Command 2 - Execting a python script from terminal/powershell
 python helloWorld.py
 ```
 
@@ -39,7 +46,7 @@ python helloWorld.py
 
 To open your Python terminal, type the word *python* or *python3* into your terminal. You will see a message similar to the following
 
-```python
+```bash
 
 Python 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)] on win32
 
@@ -48,5 +55,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-after the symbol '>>>' you can write and execute your code.
+after the symbol '>>>' you can write and execute your code. 
 
+```python
+>>> print('Hello world!') # Press enter to execute the line of code
+Hello world!
+>>>
+```
+
+## What next ?
+
+- [Variable and datastructures](https://github.com/jrojas9206/workshop_pythonCV/tree/main/section_1_pythonIntroduction/s1d2-variablesAndDataStructures)
+
+**Updated 23.10.2024**
